@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS nd su jquery library</title>
+    <script src="jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <style>
+        .black {
+            background-color: black;
+        }
+        
+        .yellow {
+            background-color: yellow;
+        }
+        
+        .purple {
+            background-color: purple;
+        }
+        
+        .green {
+            background-color: green;
+        }
+        
+        .grey {
+            background-color: grey;
+        }
+        
+        .red {
+            background-color: red;
+        }
+        
+        .blue {
+            background-color: blue;
+        }
+        
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <div id="inputai">
+        <input type="number" id="width" placeholder="įveskit ploti">
+        <input type="number" id="height" placeholder="įveskit ilgi">
+        <select id="color" name="color">
+    <option selected disabled>Color</option>
+    <option value="black">juoda</option>
+    <option value="yellow">geltona</option>
+    <option value="purple">rožine</option>
+    <option value="green">žalia</option>
+    <option value="grey">pilka</option>
+    <option value="red">raudona</option>
+    <option value="blue">melyna</option>
+</select>
+        <button id="btn">Add</button>
+    </div>
+
+    <div id="container"></div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
